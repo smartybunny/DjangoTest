@@ -1,0 +1,13 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+    <p style="text-align: center;">123 45 67 89 - Главный по тарелочкам&nbsp;<img src="https://html5-editor.net/tinymce/plugins/emoticons/img/smiley-cool.gif" alt="cool" /></p>
+    <p style="text-align: center;"><em> e-mail :</em> <a href="mailto:welcome@universe.un">welcome@universe.un</a>&nbsp;</p>
+{{ flatpage.content }}
+{% endblock content %}
